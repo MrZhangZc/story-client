@@ -3,7 +3,7 @@
  * @Author: zhangzhichao
  * @Date: 2020-05-12 00:14:54
  * @LastEditors: zhangzhichao
- * @LastEditTime: 2020-05-13 09:20:54
+ * @LastEditTime: 2020-05-13 09:43:09
  */
 'use strict'
 // Template version: 1.3.1
@@ -26,7 +26,7 @@ module.exports = {
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
-    port: 4396, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined,
+    port: 1521, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined,
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
