@@ -3,7 +3,7 @@
  * @Author: zhangzhichao
  * @Date: 2020-05-12 15:54:00
  * @LastEditors: zhangzhichao
- * @LastEditTime: 2020-05-13 01:57:47
+ * @LastEditTime: 2020-05-13 10:54:42
  -->
 <template>
   <div class="container">
@@ -29,7 +29,7 @@ export default {
     async getHeroStory() {
       const heroId = this.$route.params.id;
       try {
-        const data = await this.$http.get(`/getHeroInfo/${heroId}`);
+        const data = await this.$http.get(`/api/getHeroInfo/${heroId}`);
         if (data.data.succ) {
           const hero = data.data.data;
           this.name = hero.name;
